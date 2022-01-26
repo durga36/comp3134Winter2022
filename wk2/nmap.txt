@@ -1,0 +1,50 @@
+1) root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-25 23:54 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0077s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.62 seconds
+
+
+2) root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -p 8080 nio.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-25 23:57 UTC
+Nmap scan report for nio.com (123.207.193.135)
+Host is up (0.23s latency).
+Other addresses for nio.com (not scanned): 44.228.221.182
+
+PORT     STATE    SERVICE
+8080/tcp filtered http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 2.91 seconds
+
+
+3) root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -Pn 4000-9000 dodge.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-26 00:24 UTC
+Failed to resolve "4000-9000".
+Nmap scan report for dodge.com (129.9.49.60)
+Host is up (0.021s latency).
+rDNS record for 129.9.49.60: www-origin.b2cbrnddo.dodge.com
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 6.60 seconds
+
+4) root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -F tesla.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-26 00:30 UTC
+Nmap scan report for tesla.com (2.20.92.122)
+Host is up (0.095s latency).
+Other addresses for tesla.com (not scanned): 104.89.119.127 184.50.204.169 104.86.104.55 23.201.26.71 184.30.18.203
+rDNS record for 2.20.92.122: a2-20-92-122.deploy.static.akamaitechnologies.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.39 seconds
