@@ -1,0 +1,49 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+.
+.
+.
+.
+        0x0df0:  ac22 6700 6029 c260 6fb9 59e6 029c 3ce3  ."g.`).`o.Y...<.
+        0x0e00:  75b1 c2cb c62a e56d 7e8d 89b4 b4f0 903f  u....*.m~......?
+        0x0e10:  99b2 cd02 14c3 a42d c673 e465 8f07 bde2  .......-.s.e....
+        0x0e20:  a54c d5e2 48e2 33e7 bb00 f16e 6d58 39d9  .L..H.3....nmX9.
+        0x0e30:  cc6a 850b 181d 4a98 706d 95f9 175f e4ae  .j....J.pm..._..
+        0x0e40:  f7d9 c3c9 1627 9c53 2d39 19e8 2552 ee6a  .....'.S-9..%R.j
+        0x0e50:  89ea 603d 85c1 6e24 4f83 34ac c56c 88f9  ..`=..n$O.4..l..
+        0x0e60:  e695 2e48 d130 1b98 faef 3ad3 af61 ded6  ...H.0....:..a..
+        0x0e70:  42ff 1d57 a015 fb2c dc80 694c f323 57e5  B..W...,..iL.#W.
+        0x0e80:  7801 631e 64b2 3db6 00c6 1842 79cd 3661  x.c.d.=....By.6a
+        0x0e90:  42fc b198 0f07 cc93 cd55 2d18 776e c848  B........U-.wn.H
+        0x0ea0:  a1ac 6e8c 09bc b6c1 edb5 dfbb 7d4a a2a7  ..n.........}J..
+        0x0eb0:  9907 c6f0 1933 0c16 576f cfe0 3638 0e7d  .....3..Wo..68.}
+        0x0ec0:  d60a fb48 7d53 414b 9279 df65 db9d 0c8d  ...H}SAK.y.e....
+        0x0ed0:  a58d a4c0 ade4 7f5e 97ad d2f0 e28f c7b1  .......^........
+        0x0ee0:  0a00 e412 4566 2a5c 98de e1f4 bc16 8948  ....Ef*\.......H
+        0x0ef0:  0e31 c9b8 27eb fe51 44ca 38d4 2af7 68ee  .1..'..QD.8.*.h.
+        0x0f00:  3f1e 6da4 aaaa cf32 d3fe 41b5 5000 7cee  ?.m....2..A.P.|.
+        0x0f10:  1b7f 5b1f 877e a329 434d 9dbc f5b0 080c  ..[..~.)CM......
+        0x0f20:  b060 4ef7 6c0e a720 4dd6 c7d8 9495 c74e  .`N.l...M......N
+        0x0f30:  d78e e417 e469 4365 33bc ff8c c9dc 016a  .....iCe3......j
+        0x0f40:  97fb 6274 65e6 b75f 4704 364c 8f64 a7f5  ..bte.._G.6L.d..
+        0x0f50:  6dd4 72f6 adfe e1e7 ba00 54cb 7980 21b9  m.r.......T.y.!.
+        0x0f60:  dab6 745f ec18 bd16 964b 85fe c203 1232  ..t_.....K.....2
+        0x0f70:  c22f 8f08 11af 60f8 e600 75b1 c522 bc20  ./....`...u.."..
+        0x0f80:  90f1 4b03 5e23 1872 7476 aeab 8d7a fb8b  ..K.^#.rtv...z..
+        0x0f90:  3c5e be88 97cf 3139 7d43 7be8 ab91 2530  <^....19}C{...%0
+        0x0fa0:  a935 cce3 1cc9 7b88 9a07 3f09 3e44 2c50  .5....{...?.>D,P
+        0x0fb0:  2c02 90ec 0828 ccef 42b6 6a58 9f33 7904  ,....(..B.jX.3y.
+        0x0fc0:  f64f b8cb 8dc4 9d24 03dc 643b ab00 21e4  .O.....$..d;..!.
+        0x0fd0:  21f7 0e13 34af 76d3 9b33 13d7 a2fb b9f4  !...4.v..3......
+        0x0fe0:  c35f ea62 ab3a ae81 e9b1 651c 715a 84b3  ._.b.:....e.qZ..
+        0x0ff0:  04c0 efc3 2fd4 5e1d 863e 57ce ae6e 5270  ..../.^..>W..nRp
+        0x1000:  e987 4b69 3e28 e6ac 6113 a44d 1364 db02  ..Ki>(..a..M.d..
+        0x1010:  251e b5e3 9a27 24b2 006e a459 20c9 e754  %....'$..n.Y...T
+        0x1020:  26c3 5c5c 5eea ff0b ace6 4fdd 2799 8855  &.\\^.....O.'..U
+        0x1030:  9094 6800 73e7 1b6b cd0d bdca 9f54 71aa  ..h.s..k.....Tq.
+        0x1040:  82d1 5f3f 4d22 cb86 6040 6e0d 01d6 2144  .._?M"..`@n...!D
+        0x1050:  524b ccbc bb6c 7d0c 2443                 RK...l}.$C
+
+195 packets captured
+4299 packets received by filter
+4072 packets dropped by kernel
+

@@ -1,0 +1,22 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+.
+.
+.
+.
+13:14:36.735798 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2254712:2254940, ack 541, win 501, length 228
+13:14:36.735854 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2254940:2255168, ack 541, win 501, length 228
+13:14:36.735905 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2255168:2255396, ack 541, win 501, length 228
+13:14:36.735957 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2255396:2255624, ack 541, win 501, length 228
+13:14:36.736008 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2255624:2255852, ack 541, win 501, length 228
+13:14:36.736063 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2255852:2256080, ack 541, win 501, length 228
+13:14:36.736114 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2256080:2256308, ack 541, win 501, length 228
+13:14:36.736166 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2256308:2256512, ack 541, win 501, length 204
+13:14:36.740170 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2224904, win 5793, length 0
+13:14:36.745148 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2229920, win 5773, length 0
+13:14:36.751668 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2251976, win 5687, length 0
+13:14:36.758531 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2256512, win 5669, length 0
+13:14:36.822913 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 541:649, ack 2256512, win 5669, length 108
+^C
+10077 packets captured
+10208 packets received by filter
+131 packets dropped by kernel

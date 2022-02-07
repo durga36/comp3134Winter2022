@@ -1,0 +1,28 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+12:58:40.623562 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2196398444:2196398488, ack 3495223284, win 501, length 44
+12:58:40.623610 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 44:152, ack 1, win 501, length 108
+12:58:40.623649 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 152:188, ack 1, win 501, length 36
+12:58:40.639408 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 188, win 6193, length 0
+12:58:40.836438 IP static.cmcti.vn.47280 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1743846171, win 229, options [nop,nop,TS val 2782150023 ecr 1940213966], length 0
+12:58:40.837917 IP static.cmcti.vn.47280 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 0:21, ack 1, win 229, options [nop,nop,TS val 2782150024 ecr 1940213966], length 21
+12:58:40.837962 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > static.cmcti.vn.47280: Flags [.], ack 21, win 510, options [nop,nop,TS val 1940214204 ecr 2782150024], length 0
+12:58:40.839732 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > static.cmcti.vn.47280: Flags [P.], seq 1:1057, ack 21, win 510, options [nop,nop,TS val 1940214206 ecr 2782150024], length 1056
+12:58:41.077809 IP static.cmcti.vn.47280 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 21:461, ack 1057, win 245, options [nop,nop,TS val 2782150264 ecr 1940214206], length 440
+12:58:41.077881 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > static.cmcti.vn.47280: Flags [.], ack 461, win 507, options [nop,nop,TS val 1940214444 ecr 2782150264], length 0
+.
+.
+.
+.
+67261], length 52
+13:00:58.697292 IP 43.129.95.228.49582 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 578:662, ack 1430, win 501, options [nop,nop,TS val 1366467476 ecr 1863178361], length 84
+13:00:58.738944 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 43.129.95.228.49582: Flags [.], ack 662, win 507, options [nop,nop,TS val 1863178617 ecr 1366467476], length 0
+13:00:59.709485 IP static.cmcti.vn.47280 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [FP.], seq 661:713, ack 1458, win 262, options [nop,nop,TS val 2782288896 ecr 1940334421], length 52
+13:00:59.709538 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > static.cmcti.vn: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 112
+13:01:02.138093 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 43.129.95.228.49582: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 1863182017 ecr 1366467476], length 68
+13:01:02.342922 IP 43.129.95.228.49582 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 662:714, ack 1498, win 501, options [nop,nop,TS val 1366471121 ecr 1863182017], length 52
+13:01:02.342922 IP 43.129.95.228.49582 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [F.], seq 714, ack 1498, win 501, options [nop,nop,TS val 1366471121 ecr 1863182017], length 0
+13:01:02.342972 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 43.129.95.228.49582: Flags [.], ack 714, win 507, options [nop,nop,TS val 1863182221 ecr 1366471121], length 0
+13:01:02.345133 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 43.129.95.228.49582: Flags [F.], seq 1498, ack 715, win 507, options [nop,nop,TS val 1863182224 ecr 1366471121], length 0
+13:01:02.549857 IP 43.129.95.228.49582 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1499, win 501, options [nop,nop,TS val 1366471328 ecr 1863182224], length 0
+^C13:01:08.725252 IP 195.14.109.45.63099 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.microsoft-ds: Flags [S], seq 438396069, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0

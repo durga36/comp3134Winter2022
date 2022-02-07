@@ -1,0 +1,31 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+12:49:55.316339 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 2189758704:2189758740, ack 3495215024, win 501, length 36
+12:49:55.317875 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 36:144, ack 1, win 501, length 108
+12:49:55.317923 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 144:180, ack 1, win 501, length 36
+12:49:55.317960 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 180:288, ack 1, win 501, length 108
+12:49:55.317987 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 288:324, ack 1, win 501, length 36
+12:49:55.318664 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.48647 > 67.207.67.3.domain: 42644+ [1au] PTR? 56.73.244.99.in-addr.arpa. (54)
+12:49:55.318716 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.40609 > 67.207.67.2.domain: 2505+ [1au] PTR? 56.73.244.99.in-addr.arpa. (54)
+12:49:55.319120 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.48978 > 67.207.67.3.domain: 19785+ [1au] PTR? 152.148.182.147.in-addr.arpa. (57)
+12:49:55.319173 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.41680 > 67.207.67.2.domain: 49960+ [1au] PTR? 152.148.182.147.in-addr.arpa. (57)
+12:49:55.319205 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.46471 > 67.207.67.3.domain: 51514+ [1au] PTR? 152.148.182.147.in-addr.arpa. (57)
+12:49:55.319795 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.41680: 49960 NXDomain 0/1/1 (124)
+12:49:55.319892 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.41680 > 67.207.67.2.domain: 49960+ PTR? 152.148.182.147.in-addr.arpa. (46)
+12:49:55.319954 IP 67.207.67.3.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.48647: 42644 1/0/1 PTR cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com. (123)
+12:49:55.319970 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.3: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 48647 unreachable, length 159
+12:49:55.320089 IP 67.207.67.3.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.46471: 51514 NXDomain 0/1/1 (124)
+.
+.
+.
+.
+12:49:55.466542 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 80972:81192, ack 1, win 501, length 220
+12:49:55.471394 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 43396, win 3089, length 36
+12:49:55.471395 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 68044, win 3091, length 0
+12:49:55.471395 IP cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 68704, win 3088, length 0
+12:49:55.471547 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d351ea3-cm00fc8d351ea0.cpe.net.cable.rogers.com.58743: Flags [P.], seq 81192:81412, ack 37, win 501, length 220
+^C
+353 packets captured
+371 packets received by filter
+18 packets dropped by kernel
